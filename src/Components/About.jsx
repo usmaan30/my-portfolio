@@ -10,18 +10,23 @@ const About = () => {
             About
           </p>
         </div>
-        <p className="text-xl mt-20">
-          In publishing and graphic design, Lorem ipsum is a placeholder text
-          commonly used to demonstrate the visual form of a document or a
-          typeface without relying on meaningful content. Lorem ipsum may be
-          used as a placeholder before the final copy is available.
+        <p className="text-xl mt-12">
+          I am Usman Munir, a dynamic Frontend Developer with a strong
+          foundation in programming, currently specializing in building modern
+          web applications using ReactJS and Tailwind. With practical industry
+          experience gained through a 3 months internship, I am dedicated to
+          honing my skills and staying up-to-date with the latest technologies.
+          My next goal is to delve deeper into Next.js to enhance my
+          capabilities and deliver more efficient and scalable solutions.
         </p>
         <br />
         <p className="text-xl">
-          In publishing and graphic design, Lorem ipsum is a placeholder text
-          commonly used to demonstrate the visual form of a document or a
-          typeface without relying on meaningful content. Lorem ipsum may be
-          used as a placeholder before the final copy is available.
+          I am passionate about web development and always eager to explore new
+          opportunities in related fields. While I am currently focused on web
+          development, I am also open to expanding my skill set in areas such as
+          mobile app development and data science. My adaptability and
+          commitment to continuous learning allow me to take on diverse roles
+          and contribute meaningfully to any project or team.
         </p>
       </div>
     </div>
