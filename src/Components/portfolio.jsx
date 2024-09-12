@@ -1,22 +1,23 @@
-import arrayDestruct from "../assests/portfolio/arrayDestruct.jpg";
-import installNode from "../assests/portfolio/installNode.jpg";
-import navbar from "../assests/portfolio/navbar.jpg";
-import reactParallax from "../assests/portfolio/reactParallax.jpg";
+import rapidCourier from "../assests/portfolio/rapid-courier.png";
+import simplePotfolio from "../assests/portfolio/simple-portfolio.png";
+import adoptMe from "../assests/portfolio/adopt-me.png";
+import finsys from "../assests/portfolio/finsys.png";
+// import reactParallax from "../assests/portfolio/reactParallax.jpg";
 import reactSmooth from "../assests/portfolio/reactSmooth.jpg";
 import reactWeather from "../assests/portfolio/reactWeather.jpg";
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: adoptMe,
     },
     {
       id: 2,
-      src: reactParallax,
+      src: simplePotfolio,
     },
     {
       id: 3,
-      src: navbar,
+      src: rapidCourier,
     },
     {
       id: 4,
@@ -24,7 +25,7 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      src: installNode,
+      src: finsys,
     },
     {
       id: 6,
