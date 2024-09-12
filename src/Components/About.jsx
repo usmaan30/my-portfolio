@@ -19,6 +19,15 @@ const About = () => {
           My next goal is to delve deeper into Next.js to enhance my
           capabilities and deliver more efficient and scalable solutions.
         </p>
+        <p className="text-xl mt-12">
+          I am Usman Munir, a dynamic Frontend Developer with a strong
+          foundation in programming, currently specializing in building modern
+          web applications using ReactJS and Tailwind. With practical industry
+          experience gained through a 3 months internship, I am dedicated to
+          honing my skills and staying up-to-date with the latest technologies.
+          My next goal is to delve deeper into Next.js to enhance my
+          capabilities and deliver more efficient and scalable solutions.
+        </p>
         <br />
         <p className="text-xl">
           I am passionate about web development and always eager to explore new
