@@ -1,7 +1,7 @@
-import rapidCourier from "../assests/portfolio/rapid-courier.png";
-import simplePotfolio from "../assests/portfolio/simple-portfolio.png";
-import adoptMe from "../assests/portfolio/adopt-me.png";
-import finsys from "../assests/portfolio/finsys.png";
+import rapidCourier from "../assests/portfolio/rapid-courier.jpg";
+import simplePotfolio from "../assests/portfolio/simple-portfolio.jpg";
+import adoptMe from "../assests/portfolio/adopt-me.jpg";
+import finsys from "../assests/portfolio/finsys.jpg";
 // import reactParallax from "../assests/portfolio/reactParallax.jpg";
 import reactSmooth from "../assests/portfolio/reactSmooth.jpg";
 import reactWeather from "../assests/portfolio/reactWeather.jpg";
@@ -10,26 +10,38 @@ const Portfolio = () => {
     {
       id: 1,
       src: adoptMe,
+      liveLink: "https://adopt-mee-please.netlify.app/",
+      codeLink: "https://github.com/usmaan30/adopt-me",
     },
     {
       id: 2,
       src: simplePotfolio,
+      liveLink: "https://adopt-mee-please.netlify.app/",
+      codeLink: "https://github.com/usmaan30/adopt-me",
     },
     {
       id: 3,
       src: rapidCourier,
+      liveLink: "https://adopt-mee-please.netlify.app/",
+      codeLink: "https://github.com/usmaan30/adopt-me",
     },
     {
       id: 4,
       src: reactSmooth,
+      liveLink: "https://adopt-mee-please.netlify.app/",
+      codeLink: "https://github.com/usmaan30/adopt-me",
     },
     {
       id: 5,
       src: finsys,
+      liveLink: "https://adopt-mee-please.netlify.app/",
+      codeLink: "https://github.com/usmaan30/adopt-me",
     },
     {
       id: 6,
       src: reactWeather,
+      liveLink: "https://adopt-mee-please.netlify.app/",
+      codeLink: "https://github.com/usmaan30/adopt-me",
     },
   ];
 
@@ -47,20 +59,30 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, liveLink, codeLink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
-                alt=""
+                alt="Picture"
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a
+                  href={liveLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                >
+                  Live
+                </a>
+                <a
+                  href={codeLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                >
                   Code
-                </button>
+                </a>
               </div>
             </div>
           ))}
