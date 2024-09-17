@@ -16,32 +16,32 @@ const Portfolio = () => {
     {
       id: 2,
       src: simplePotfolio,
-      liveLink: "https://adopt-mee-please.netlify.app/",
-      codeLink: "https://github.com/usmaan30/adopt-me",
+      liveLink: "https://usmaan30.github.io/simple-Portfolio/",
+      codeLink: "https://github.com/usmaan30/simple-Portfolio",
     },
     {
       id: 3,
       src: rapidCourier,
-      liveLink: "https://adopt-mee-please.netlify.app/",
-      codeLink: "https://github.com/usmaan30/adopt-me",
+      liveLink: "https://usmaan30.github.io/Rapid-kurier/",
+      codeLink: "https://github.com/usmaan30/Rapid-kurier",
     },
     {
       id: 4,
       src: reactSmooth,
-      liveLink: "https://adopt-mee-please.netlify.app/",
-      codeLink: "https://github.com/usmaan30/adopt-me",
+      // liveLink: "https://adopt-mee-please.netlify.app/",
+      // codeLink: "https://github.com/usmaan30/adopt-me",
     },
     {
       id: 5,
       src: finsys,
-      liveLink: "https://adopt-mee-please.netlify.app/",
-      codeLink: "https://github.com/usmaan30/adopt-me",
+      liveLink: "https://usmaan30.github.io/project_finsys/",
+      codeLink: "https://github.com/usmaan30/project_finsys",
     },
     {
       id: 6,
       src: reactWeather,
-      liveLink: "https://adopt-mee-please.netlify.app/",
-      codeLink: "https://github.com/usmaan30/adopt-me",
+      // liveLink: "https://adopt-mee-please.netlify.app/",
+      // codeLink: "https://github.com/usmaan30/adopt-me",
     },
   ];
 
@@ -71,7 +71,7 @@ const Portfolio = () => {
                   href={liveLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  className="flex justify-center w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
                 >
                   Live
                 </a>
@@ -79,7 +79,7 @@ const Portfolio = () => {
                   href={codeLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  className="flex justify-center w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
                 >
                   Code
                 </a>
