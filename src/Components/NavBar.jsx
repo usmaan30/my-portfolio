@@ -126,7 +126,7 @@ const SocialLinksMobile = () => {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "../../public/UsmanMunir_Resume.pdf",
+      href: "../../public/UsmanMunir-Resume-FE.pdf",
       download: true,
     },
   ];
